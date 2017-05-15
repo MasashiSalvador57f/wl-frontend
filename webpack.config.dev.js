@@ -6,6 +6,8 @@ module.exports = {
   devServer: {
     contentBase: 'dist',
     port: 19823,
+    inline: true,
+    hot: true
   },
   devtool: 'source-map',
   resolve: {

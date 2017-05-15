@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --colors --config ./webpack.config.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config ./webpack.config.dev.js --content-base dist/"
+    "dev": "webpack-dev-server --hot --inline --config ./webpack.config.dev.js --content-base dist/"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,8 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "@types/firebase": "^2.4.31",
+    "firebase": "^3.9.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   }
