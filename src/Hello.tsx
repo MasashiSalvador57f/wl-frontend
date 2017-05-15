@@ -1,10 +1,6 @@
 import * as React from 'react';
 import * as firebase from 'firebase';
 
-console.log("====");
-console.log(firebase);
-console.log("===----");
-
 export interface Props {
   content: string;
 }
